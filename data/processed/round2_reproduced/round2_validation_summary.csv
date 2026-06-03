@@ -1,0 +1,16 @@
+﻿source_file,expert_id,round,skill_rows,missing_ratings,invalid_ratings,completion_status_cell,years_experience,lcdp_experience_count
+Expert_Survey_Round2_E01_RW.xlsx,E01_RW,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,4
+Expert_Survey_Round2_E02_AC.xlsx,E02_AC,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",15-19,3
+Expert_Survey_Round2_E03_PO.xlsx,E03_PO,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",15-19,5+
+Expert_Survey_Round2_E04_JS.xlsx,E04_JS,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",15-19,3
+Expert_Survey_Round2_E05_WD.xlsx,E05_WD,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,3
+Expert_Survey_Round2_E06_PM.xlsx,E06_PM,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,5+
+Expert_Survey_Round2_E07_BK.xlsx,E07_BK,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",10-14,3
+Expert_Survey_Round2_E08_JA.xlsx,E08_JA,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,4
+Expert_Survey_Round2_E09_MM.xlsx,E09_MM,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",15-19,3
+Expert_Survey_Round2_E10_MW.xlsx,E10_MW,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",10-14,3
+Expert_Survey_Round2_E11_SS.xlsx,E11_SS,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,3
+Expert_Survey_Round2_E12_MK.xlsx,E12_MK,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,3
+Expert_Survey_Round2_E13_MMA.xlsx,E13_MMA,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,4
+Expert_Survey_Round2_E14_PMA.xlsx,E14_PMA,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,4
+Expert_Survey_Round2_E15_KR.xlsx,E15_KR,2,46,0,0,"=IF(B6=0,""Complete"",""Incomplete"")",20+,3
