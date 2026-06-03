@@ -1,2 +1,11 @@
-doi: 10.5281/zenodo.20529856
-version: 1.0.1
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite it using the Zenodo DOI."
+title: "Two-Level IT Skill Burden Framework for Low-Code Platform Selection: Reproducibility Package"
+authors:
+  - family-names: "Waszkowski"
+    given-names: "Robert"
+doi: "10.5281/zenodo.20529856"
+version: "1.0.2"
+date-released: "2026-06-03"
+repository-code: "https://github.com/robertwaszkowski/lcdp-skill-burden-reproducibility"
+license: "MIT"
