@@ -1,6 +1,6 @@
 # Two-Level IT Skill Burden Framework for Low-Code Platform Selection
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20529856.svg)](https://doi.org/10.5281/zenodo.20529856)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20529987.svg)](https://doi.org/10.5281/zenodo.20529987)
 
 This repository contains the reproducibility package for the study introducing the **Two-Level IT Skill Burden Framework** for evaluating low-code development platforms in the context of **Citizen Development**.
 

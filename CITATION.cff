@@ -4,8 +4,8 @@ title: "Two-Level IT Skill Burden Framework for Low-Code Platform Selection: Rep
 authors:
   - family-names: "Waszkowski"
     given-names: "Robert"
-doi: "10.5281/zenodo.20529856"
-version: "1.0.2"
+doi: "10.5281/zenodo.20529987"
+version: "1.0.3"
 date-released: "2026-06-03"
 repository-code: "https://github.com/robertwaszkowski/lcdp-skill-burden-reproducibility"
 license: "MIT"
