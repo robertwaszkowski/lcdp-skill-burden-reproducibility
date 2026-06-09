@@ -36,6 +36,9 @@ The framework quantifies the IT skill burden imposed by low-code development pla
 
 The repository includes raw expert-survey archives, processed datasets, reproducible Python scripts, reliability outputs, convergence-analysis results, and documentation needed to reproduce the expert-survey validation package.
 
+The repository also includes a curated platform-score reproducibility package in `data/platform_score_package/`. This package contains the platform-review dataset, normalized platform-skill matrix, final expert-derived skill weights, and calculation workbook used to verify the phase-specific IT Skill Burden Indices, Total ISBI values, final ranking, and sensitivity-analysis outputs reported in the manuscript. This package verifies the curated dataset and calculation outputs; it does not claim to regenerate the platform-skill matrix automatically from raw web documentation.
+
+
 ## Study overview
 
 The study evaluates IT skill burden in low-code development platforms using a platform-skill-phase matrix and expert-derived skill weights.
@@ -137,6 +140,32 @@ python analysis/reproduce_expert_survey_round2_analysis.py
 ```
 
 The scripts reproduce the expert-survey reliability analysis, Delphi convergence outputs, final consensus weights, and processed datasets.
+
+### 6. Verify the platform-score package
+
+The curated platform-score package is stored in `data/platform_score_package/`.
+
+It contains:
+
+* `lcdp_skill_burden_dataset.xlsx`: curated platform-review, skill-taxonomy, weight, and platform-skill matrix data;
+* `lcdp_skill_burden_calculations.xlsx`: derived phase scores, final ranking, sensitivity analyses, switching-point results, and diagnostic summaries;
+* `README.md`: package-level data description and reproduction workflow.
+
+To verify the phase-score and ranking outputs, inspect the `Phase_Scores` and `Final_Ranking` sheets in `lcdp_skill_burden_calculations.xlsx`.
+
+The expected Total ISBI ranking is:
+
+| Rank | Platform | Total ISBI |
+| ---: | --- | ---: |
+| 1 | Aurea | 429.8750 |
+| 2 | Google AppSheet | 524.2500 |
+| 3 | OutSystems | 560.4375 |
+| 4 | Zoho Creator | 579.5000 |
+| 5 | Microsoft Power Apps | 606.2500 |
+| 6 | Mendix | 804.8750 |
+
+The platform-score package verifies the curated dataset and derived calculation outputs. It is not intended to regenerate the platform-skill matrix automatically from raw vendor documentation.
+
 
 ## Data description
 
