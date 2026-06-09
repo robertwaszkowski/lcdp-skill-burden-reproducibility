@@ -1,0 +1,7 @@
+Platform,Base_Rank,p2_q1_Rank,p2_q1_Change,p1_qinf_Rank,p1_qinf_Change
+Aurea,1,1,0,1,0
+Google AppSheet,2,2,0,3,1
+OutSystems,3,3,0,2,-1
+Zoho Creator,4,5,1,5,1
+Microsoft Power Apps,5,4,-1,6,1
+Mendix,6,6,0,4,-2

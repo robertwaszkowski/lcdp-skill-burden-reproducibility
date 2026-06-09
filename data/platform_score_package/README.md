@@ -23,8 +23,13 @@ Corrected derived calculation workbook generated from the final 15-expert Round 
 - Final_Ranking: final ranking by Total ISBI.
 - Weight_Set_Check: verification that the workbook weights match the final 15-expert consensus weights.
 - Phase8I_Ablation_Diagnostic: diagnostic comparison showing that the unweighted requirement-count ranking is identical to the weighted Total ISBI ranking.
+- Sens_Skill_Final15: final-15 skill-weight perturbation results.
+- Sens_Skill_Summary15: summary of the final-15 skill-weight perturbation diagnostic.
+- Sens_Phase_Final15: final-15 phase-weight sensitivity results.
+- Sens_Aggregation15: final-15 aggregation-parameter sensitivity results.
+- Switching_Final15: final-15 switching-point and resilience diagnostics.
 
-Previous sensitivity and switching-point sheets based on the older weight set were intentionally removed. They must be recomputed before being cited or used in the manuscript.
+Sensitivity and switching-point sheets have been recomputed from the corrected final 15-expert Round 2 consensus weights. The calculation workbook now includes final-15 sensitivity sheets, switching-point outputs, and the Phase 8I ablation diagnostic.
 
 ## Reproduction workflow
 
@@ -52,3 +57,12 @@ The unweighted requirement-count ranking is identical to the weighted Total ISBI
 ## Notes
 
 This package verifies the curated dataset and derived calculation outputs. It does not claim automatic regeneration of the platform-skill matrix from raw vendor documentation.
+
+## Reproducibility scripts
+
+The following scripts reproduce the corrected platform-score package outputs:
+
+- `analysis/recompute_platform_scores_from_final_weights.py`
+- `analysis/recompute_sensitivity_from_final_weights.py`
+
+The second script also writes final-15 sensitivity CSV outputs to `data/platform_score_package/final15_sensitivity_outputs/` and refreshes the final-15 sensitivity sheets in `lcdp_skill_burden_calculations.xlsx`.
