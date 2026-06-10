@@ -1,0 +1,19 @@
+Field,Meaning
+Skill_ID,Unique identifier assigned to each IT skill in the curated skill taxonomy.
+Matrix_Row_ID,Identifier for a row in the platform-skill requirement matrix.
+Project_Stage,"Application lifecycle phase: Design, Development, or Implementation."
+Project_Task,Task category within a lifecycle phase.
+Source_URL,Documentation URL or URLs used as evidence for a platform-review row.
+Keywords,Documentation-derived terms or IT skills identified for a platform-review row.
+Skill,IT skill or technical concept required by at least one LCDP.
+x_ij,Binary platform-skill requirement indicator. 1 = skill is required by the platform; 0 = skill is not required.
+Usage_Intensity (u_j),Expert-survey-based assessment of how often skill j is used in a typical application development process.
+Difficulty_of_Acquisition (d_j),Expert-survey-based assessment of how difficult skill j is to acquire for a non-IT-trained user.
+Synthetic_Weight (w_j),Product of usage intensity and acquisition difficulty: w_j = u_j * d_j.
+"F_PA, F_PD, F_PI","Phase-specific IT skill-burden indices for Design, Development, and Implementation."
+F_Total,Total Phase-Aware Weighted CD Score obtained by aggregating phase-specific burdens.
+Platform_Review,"Documentation-based platform review containing platform, project stage, task, source URL(s), and keywords."
+Skill_Taxonomy_Weights,"Curated skill list with expert-derived usage intensity, acquisition difficulty, and synthetic weights."
+Platform_Skill_Matrix,Normalized binary mapping between LCDPs and required IT skills.
+Synthetic_Weight,Final consensus synthetic weight after Round 2: mean of expert-level Usage x Difficulty values across 15 experts.
+Final_Weight_Source,Source file used to populate final 15-expert consensus weights.

@@ -1,0 +1,163 @@
+Matrix_Row_ID,Skill_ID,Project_Stage,Project_Task,Skill,Mendix,OutSystems,Zoho Creator,Microsoft Power Apps,Google AppSheet,Aurea
+MK001,SK002,Design,Workflow model,Custom Process Model,0,1,1,1,1,0
+MK002,SK008,Design,Database model,Domain Model,1,0,0,0,0,0
+MK003,SK009,Design,Database model,Conditional Expressions,0,0,0,0,1,0
+MK004,SK010,Design,Database model,Constraints,0,0,0,0,1,0
+MK005,SK011,Design,Database model,Data Structure,1,0,0,0,0,0
+MK006,SK012,Design,Database model,IT Data Types,0,1,0,0,1,0
+MK007,SK013,Design,Database model,Denormalization,1,0,0,0,0,0
+MK008,SK014,Design,Database model,Entity Diagrams,1,1,1,1,1,0
+MK009,,Design,Database model,Enumeration,0,0,0,0,0,0
+MK010,SK016,Design,Database model,Expressions,0,0,0,0,1,0
+MK011,SK017,Design,Database model,Relational Database,1,1,1,1,0,0
+MK012,SK018,Design,Database model,XML/XPath,1,0,0,0,0,1
+MK013,SK024,Design,UI model,Expressions,1,1,1,0,1,1
+MK014,SK025,Design,UI model,IT Data Types,1,0,0,0,0,0
+MK015,SK026,Design,UI model,Functions,0,0,0,0,1,0
+MK016,SK027,Design,UI model,Model-driven Apps,0,0,0,1,0,0
+MK017,SK028,Design,UI model,Reactive Web App,0,1,0,0,0,0
+MK018,SK029,Design,UI model,Responsive Web Design,1,0,0,1,0,0
+MK019,SK030,Design,UI model,Variables,0,1,1,0,0,1
+MK020,SK033,Design,Validations,Expressions,1,1,1,1,1,1
+MK021,SK034,Design,Validations,Enumerations,1,0,0,0,0,0
+MK022,SK035,Design,Validations,JavaScript,1,0,0,0,0,0
+MK023,SK036,Design,Validations,Scripts,0,0,1,0,0,1
+MK024,SK037,Design,Validations,Transactions,1,0,0,0,0,0
+MK025,SK043,Design,Application logic,UML,1,0,0,0,0,0
+MK026,SK044,Design,Application logic,Algorithms,1,0,0,0,0,0
+MK027,SK045,Design,Application logic,Expressions,1,0,0,1,1,1
+MK028,SK046,Design,Application logic,Control Structures,1,0,0,0,0,0
+MK029,SK047,Design,Application logic,IT Data Types,1,0,0,0,0,0
+MK030,SK048,Design,Application logic,Events,0,0,0,0,1,1
+MK031,SK049,Design,Application logic,Formulas,0,0,0,1,1,0
+MK032,SK050,Design,Application logic,Functions,0,0,0,0,1,0
+MK033,SK051,Design,Application logic,Java,1,0,0,0,0,0
+MK034,SK052,Design,Application logic,JavaScript,1,0,0,0,0,0
+MK035,SK053,Design,Application logic,Microservices,0,0,1,0,0,0
+MK036,SK054,Design,Application logic,SQL,1,0,0,0,0,1
+MK037,SK055,Design,Application logic,Variables,1,1,1,1,1,1
+MK038,SK057,Development,Workflow design and development,Expressions,0,0,0,0,1,0
+MK039,SK058,Development,Workflow design and development,Custom Process Model,0,1,1,1,1,0
+MK040,SK059,Development,Workflow design and development,Events,1,0,0,0,0,0
+MK041,SK060,Development,Workflow design and development,Java API,1,0,0,0,0,0
+MK042,SK061,Development,Workflow design and development,JavaScript,0,0,0,0,1,0
+MK043,SK062,Development,Workflow design and development,REST API,0,0,0,0,1,0
+MK044,SK063,Development,Workflow design and development,Triggers,1,0,0,0,0,0
+MK045,SK068,Development,Database design,Actions,0,0,0,1,0,0
+MK046,SK069,Development,Database design,Expressions,0,0,0,0,1,0
+MK047,SK070,Development,Database design,Relational Database,1,1,1,1,1,0
+MK048,SK071,Development,Database design,Entity Diagrams,0,0,1,0,0,0
+MK049,SK072,Development,Database design,Functions,0,0,0,1,1,0
+MK050,SK073,Development,Database design,SQL,1,1,0,0,0,0
+MK051,SK074,Development,Database design,IT Data Types,0,0,0,1,1,1
+MK052,SK075,Development,Database design,Web API,0,0,0,1,0,0
+MK053,SK076,Development,Fetching data,.NET,0,0,0,1,0,0
+MK054,SK081,Development,Fetching data,Cloud Services,0,0,1,0,0,0
+MK055,SK082,Development,Fetching data,Custom Query Language,0,0,0,1,0,0
+MK056,SK083,Development,Fetching data,Data Source Integration,0,0,0,0,1,1
+MK057,SK084,Development,Fetching data,Formulas,0,0,0,1,0,1
+MK058,SK085,Development,Fetching data,Local Storage,0,0,1,0,0,0
+MK059,SK086,Development,Fetching data,OAuth,0,0,1,0,0,0
+MK060,SK087,Development,Fetching data,REST API,0,0,1,0,0,0
+MK061,SK088,Development,Fetching data,SDK,0,0,0,1,0,0
+MK062,SK089,Development,Fetching data,SQL,0,1,0,1,1,0
+MK063,SK090,Development,Fetching data,URL,0,0,1,0,0,0
+MK064,SK091,Development,Fetching data,Web API,0,0,0,1,1,0
+MK065,SK100,Development,GUI design and development,CSS/SCSS,1,1,0,0,0,0
+MK066,SK101,Development,GUI design and development,Event Propagation,0,1,0,0,0,0
+MK067,SK102,Development,GUI design and development,Responsive Web Design,0,1,0,0,0,0
+MK068,SK103,Development,GUI design and development,HTML,1,1,1,0,0,0
+MK069,SK104,Development,GUI design and development,IT Data Types,0,1,1,1,0,0
+MK070,SK105,Development,GUI design and development,JavaScript,0,0,0,1,0,0
+MK071,SK106,Development,GUI design and development,Master Detail,0,1,0,0,0,0
+MK072,SK107,Development,GUI design and development,Programming Functions,0,1,1,1,0,0
+MK073,SK108,Development,GUI design and development,Scripts,0,0,1,0,0,0
+MK074,SK109,Development,GUI design and development,Snippets,0,0,1,0,0,0
+MK075,SK110,Development,GUI design and development,Variables,0,0,1,0,0,0
+MK076,SK111,Development,GUI design and development,XML,0,0,0,1,0,1
+MK077,SK113,Development,Data validation development,+Column Expressions,0,0,0,0,1,0
+MK078,SK114,Development,Data validation development,Expressions,1,1,1,1,1,1
+MK079,SK115,Development,Data validation development,Data Fields,0,1,0,0,0,1
+MK080,SK116,Development,Data validation development,Domain Model,1,0,0,0,0,0
+MK081,SK117,Development,Data validation development,Scripts,0,0,1,0,0,1
+MK082,SK121,Development,Actions design and development,API,1,1,1,1,0,1
+MK083,SK122,Development,Actions design and development,Expressions,0,1,1,1,1,1
+MK084,SK123,Development,Actions design and development,Functions,0,0,0,0,1,0
+MK085,SK124,Development,Actions design and development,Java,1,0,0,0,0,0
+MK086,SK125,Development,Actions design and development,JavaScript,1,1,0,1,0,0
+MK087,SK126,Development,Actions design and development,Object Model,0,0,0,1,0,0
+MK088,SK127,Development,Actions design and development,Scripts,0,0,1,0,0,1
+MK089,SK128,Development,Actions design and development,SOAP,0,1,0,0,0,0
+MK090,SK129,Development,Programming,.NET,0,1,0,1,0,0
+MK091,SK131,Development,Programming,Expressions,0,1,1,1,1,1
+MK092,SK132,Development,Programming,CLI,0,0,0,1,0,0
+MK093,SK133,Development,Programming,IT Data Types,0,0,0,1,0,0
+MK094,SK134,Development,Programming,Eclipse,1,0,0,0,0,0
+MK095,SK135,Development,Programming,Emulators,1,0,0,0,0,0
+MK096,SK136,Development,Programming,Entity Types,0,0,0,1,0,0
+MK097,SK137,Development,Programming,Enumerations,0,0,0,1,0,0
+MK098,SK138,Development,Programming,Functions,0,0,0,1,1,0
+MK099,SK139,Development,Programming,HTML,0,1,1,0,1,1
+MK100,SK140,Development,Programming,SDK/IDE,0,0,1,1,0,0
+MK101,SK141,Development,Programming,Iteration Statements,0,1,1,1,0,0
+MK102,SK142,Development,Programming,Java,1,0,0,0,0,0
+MK103,SK143,Development,Programming,Java API,1,0,0,0,0,0
+MK104,SK144,Development,Programming,JavaScript,0,0,0,0,1,1
+MK105,SK145,Development,Programming,JSON,0,0,0,0,1,0
+MK106,SK146,Development,Programming,Markup Language,0,0,1,0,0,0
+MK107,SK147,Development,Programming,Metadata,0,0,0,1,0,0
+MK108,SK148,Development,Programming,Native Mobile App,1,0,0,0,0,0
+MK109,SK149,Development,Programming,node.js,0,0,0,1,0,0
+MK110,SK150,Development,Programming,PWA,1,0,0,0,0,0
+MK111,SK151,Development,Programming,Query Functions,0,0,0,1,0,0
+MK112,SK152,Development,Programming,Scripts,0,0,1,0,0,0
+MK113,SK153,Development,Programming,Snippets,0,0,1,0,0,0
+MK114,SK154,Development,Programming,TypeScript,0,0,0,1,0,0
+MK115,SK155,Development,Programming,Web API,0,0,0,1,1,0
+MK116,SK156,Development,Programming,XML,0,0,0,0,1,1
+MK117,SK158,Implementation,Runtime server installation,API,1,0,0,0,0,0
+MK118,SK159,Implementation,Runtime server installation,Compiler Service,0,1,0,0,0,0
+MK119,SK160,Implementation,Runtime server installation,Database Synchronization,1,0,0,0,0,0
+MK120,SK161,Implementation,Runtime server installation,Deployment Controller Service,0,1,0,0,0,0
+MK121,SK162,Implementation,Runtime server installation,Email Server (SMTP),0,0,1,0,0,1
+MK122,SK163,Implementation,Runtime server installation,File Storage,1,0,0,0,0,0
+MK123,SK164,Implementation,Runtime server installation,HTTPS Server,1,1,0,0,0,0
+MK124,SK165,Implementation,Runtime server installation,Java,1,0,0,0,0,0
+MK125,SK166,Implementation,Runtime server installation,Load Balancing,0,1,0,0,0,0
+MK126,SK167,Implementation,Runtime server installation,Log Service,0,1,0,0,0,0
+MK127,SK168,Implementation,Runtime server installation,Mobile App,0,0,0,0,1,0
+MK128,SK169,Implementation,Runtime server installation,OQL,1,0,0,0,0,0
+MK129,SK170,Implementation,Runtime server installation,Proxy server,0,0,1,0,0,0
+MK130,SK171,Implementation,Runtime server installation,Relational Database,1,0,0,0,0,0
+MK131,SK172,Implementation,Runtime server installation,REST API,1,0,0,0,0,0
+MK132,SK173,Implementation,Runtime server installation,SAML Authentication,0,0,1,0,0,0
+MK133,SK174,Implementation,Runtime server installation,Scheduler Service,0,1,0,0,0,0
+MK134,SK175,Implementation,Runtime server installation,Shared Libraries,0,1,0,0,0,0
+MK135,SK176,Implementation,Runtime server installation,SOAP,1,0,0,0,0,0
+MK136,SK177,Implementation,Runtime server installation,SSL Certificates,0,0,1,0,0,0
+MK137,SK178,Implementation,Runtime server installation,Swagger,1,0,0,0,0,0
+MK138,SK179,Implementation,Runtime server installation,WSDL,1,0,0,0,0,0
+MK139,SK180,Implementation,Runtime server installation,XML/XPath,1,0,0,0,0,0
+MK140,SK182,Implementation,Database installation,File Storage,1,1,0,0,0,0
+MK141,SK183,Implementation,Database installation,Relational Database,1,1,1,1,1,1
+MK142,SK184,Implementation,Database installation,REST API,0,0,0,0,1,0
+MK143,SK188,Implementation,Client module installation,API,1,0,0,0,0,0
+MK144,SK189,Implementation,Client module installation,Binaries,0,1,1,0,0,0
+MK145,SK190,Implementation,Client module installation,HTTPS Server,1,0,0,0,0,0
+MK146,SK191,Implementation,Client module installation,URL Configuration,0,0,1,0,0,0
+MK147,SK192,Implementation,Client module installation,Web Services,0,0,0,1,0,0
+MK148,SK195,Implementation,Deployment,Application IDE,0,0,1,0,0,0
+MK149,SK196,Implementation,Deployment,CI/CD,1,1,0,0,0,0
+MK150,SK197,Implementation,Deployment,Cloud Computing,0,1,1,0,0,0
+MK151,SK198,Implementation,Deployment,Cloud Services,1,0,0,0,0,0
+MK152,SK199,Implementation,Deployment,Docker,1,0,0,0,0,0
+MK153,SK200,Implementation,Deployment,Import/Export,0,0,1,0,0,0
+MK154,SK201,Implementation,Deployment,Kubernetes,1,0,0,0,0,0
+MK155,SK202,Implementation,Deployment,On-Premise,0,0,1,0,0,0
+MK156,SK203,Implementation,Deployment,On-premises Data Gateway,0,0,0,1,1,0
+MK157,SK204,Implementation,Deployment,REST API,0,1,0,0,0,0
+MK158,SK205,Implementation,Deployment,Scripts,0,0,1,0,0,0
+MK159,SK206,Implementation,Deployment,SOAP,0,1,0,0,0,0
+MK160,SK207,Implementation,Version control,Code Repository Concept,1,0,0,1,0,0
+MK161,SK208,Implementation,Version control,Custom Version Control,0,1,1,0,1,1
+MK162,SK209,Implementation,Version control,Git,1,0,0,1,0,0

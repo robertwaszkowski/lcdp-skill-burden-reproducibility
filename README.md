@@ -8,36 +8,40 @@ The framework quantifies the IT skill burden imposed by low-code development pla
 
 ## Repository contents
 
+To clearly reflect the sequence of analytical steps, the repository is organized into pipeline phases. **Each phase has its own detailed README:**
+
+* **[Phase 1: Expert Surveys](01_expert_surveys/README.md)** (`01_expert_surveys/`)
+* **[Phase 2: Platform Burden](02_platform_burden/README.md)** (`02_platform_burden/`)
+* **[Phase 3: Sensitivity Analysis](03_sensitivity/README.md)** (`03_sensitivity/`)
+* **[Phase 4: Round 3 Validation](04_validation_round3/README.md)** (`04_validation_round3/`)
+
 ```text
 .
-├── analysis/
-│   ├── reproduce_expert_survey_round1_analysis.py
-│   ├── reproduce_expert_survey_round2_analysis.py
-│   └── requirements.txt
+├── 01_expert_surveys/
+│   ├── input/     # Raw expert survey ZIP archives
+│   ├── output/    # Consensus weights and reliability metrics
+│   ├── 01_process_expert_surveys_round1.py
+│   └── 02_process_expert_surveys_round2.py
 │
-├── data/
-│   ├── raw/
-│   │   ├── completed_expert_surveys_round1_FINAL.zip
-│   │   └── completed_expert_surveys_round2_FINAL.zip
-│   │
-│   └── processed/
-│       ├── final_expert_survey_long_format_after_round2.csv
-│       ├── final_consensus_weights_after_round2.csv
-│       ├── expert_reliability_round2_and_final.csv
-│       └── round2_convergence_by_skill.csv
+├── 02_platform_burden/
+│   ├── input/     # Platform-skill matrix CSVs
+│   ├── output/    # Phase scores and final ranking
+│   └── 03_calculate_platform_scores.py
 │
-├── outputs/
-│   └── reproduced analysis outputs
+├── 03_sensitivity/
+│   ├── output/    # Sensitivity and robustness metrics
+│   └── 04_run_sensitivity_analysis.py
 │
+├── 04_validation_round3/
+│   ├── input/     # Round 3 pairwise validation datasets
+│   ├── output/    # Validation summary metrics
+│   └── 05_analyze_round3_validation.py
+│
+├── .venv/         # Python virtual environment (if created)
 ├── README.md
 ├── LICENSE
 └── CITATION.cff
 ```
-
-The repository includes raw expert-survey archives, processed datasets, reproducible Python scripts, reliability outputs, convergence-analysis results, and documentation needed to reproduce the expert-survey validation package.
-
-The repository also includes a curated platform-score reproducibility package in `data/platform_score_package/`. This package contains the platform-review dataset, normalized platform-skill matrix, final expert-derived skill weights, and calculation workbook used to verify the phase-specific IT Skill Burden Indices, Total ISBI values, final ranking, and sensitivity-analysis outputs reported in the manuscript. This package verifies the curated dataset and calculation outputs; it does not claim to regenerate the platform-skill matrix automatically from raw web documentation.
-
 
 ## Study overview
 
@@ -64,7 +68,7 @@ These weights are then used to calculate phase-specific IT Skill Burden Indices 
 
 ## Expert survey design
 
-The validation package is based on a two-round expert survey.
+The validation package is based on a two-round expert Delphi survey, followed by a third-round validation.
 
 ### Round 1
 
@@ -114,75 +118,45 @@ git clone https://github.com/robertwaszkowski/lcdp-skill-burden-reproducibility.
 cd lcdp-skill-burden-reproducibility
 ```
 
-### 2. Create a Python environment
+### 2. Create a Python environment and Install dependencies
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install pandas openpyxl scipy
 ```
 
-### 3. Install dependencies
+### 3. Run the complete pipeline
+
+The scripts are sequentially numbered. You can reproduce the entire pipeline by running:
 
 ```bash
-pip install -r analysis/requirements.txt
+# Phase 1: Delphi expert consensus
+python 01_expert_surveys/01_process_expert_surveys_round1.py
+python 01_expert_surveys/02_process_expert_surveys_round2.py
+
+# Phase 2: Platform Burden Calculations
+python 02_platform_burden/03_calculate_platform_scores.py
+
+# Phase 2b: Sensitivity Analysis
+python 03_sensitivity/04_run_sensitivity_analysis.py
+
+# Phase 3: Pairwise Validation
+python 04_validation_round3/05_process_expert_surveys_round3.py
+python 04_validation_round3/06_analyze_round3_validation.py
 ```
 
-### 4. Reproduce Round 1 analysis
-
-```bash
-python analysis/reproduce_expert_survey_round1_analysis.py
-```
-
-### 5. Reproduce Round 2 and final analysis
-
-```bash
-python analysis/reproduce_expert_survey_round2_analysis.py
-```
-
-The scripts reproduce the expert-survey reliability analysis, Delphi convergence outputs, final consensus weights, and processed datasets.
-
-### 6. Verify the platform-score package
-
-The curated platform-score package is stored in `data/platform_score_package/`.
-
-It contains:
-
-* `lcdp_skill_burden_dataset.xlsx`: curated platform-review, skill-taxonomy, weight, and platform-skill matrix data;
-* `lcdp_skill_burden_calculations.xlsx`: derived phase scores, final ranking, sensitivity analyses, switching-point results, and diagnostic summaries;
-* `README.md`: package-level data description and reproduction workflow.
-
-To verify the phase-score and ranking outputs, inspect the `Phase_Scores` and `Final_Ranking` sheets in `lcdp_skill_burden_calculations.xlsx`.
-
-The expected Total ISBI ranking is:
+The expected Total ISBI ranking (found in `02_platform_burden/output/final_ranking.csv`) is:
 
 | Rank | Platform | Total ISBI |
 | ---: | --- | ---: |
-| 1 | Aurea | 429.8750 |
-| 2 | Google AppSheet | 524.2500 |
-| 3 | OutSystems | 560.4375 |
-| 4 | Zoho Creator | 579.5000 |
-| 5 | Microsoft Power Apps | 606.2500 |
-| 6 | Mendix | 804.8750 |
+| 1 | Aurea | 301.5333 |
+| 2 | Google AppSheet | 478.2666 |
+| 3 | OutSystems | 510.6666 |
+| 4 | Zoho Creator | 531.5333 |
+| 5 | Microsoft Power Apps | 562.0000 |
+| 6 | Mendix | 718.7333 |
 
-The platform-score package verifies the curated dataset and derived calculation outputs. It is not intended to regenerate the platform-skill matrix automatically from raw vendor documentation.
-
-
-## Data description
-
-The main processed datasets are:
-
-| File                                               | Description                                                       |
-| -------------------------------------------------- | ----------------------------------------------------------------- |
-| `final_expert_survey_long_format_after_round2.csv` | Final long-format expert-survey dataset after Round 2 refinement  |
-| `final_consensus_weights_after_round2.csv`         | Final consensus skill weights after Delphi refinement             |
-| `expert_reliability_round2_and_final.csv`          | Reliability statistics for Round 2 and final expert-weight set    |
-| `round2_convergence_by_skill.csv`                  | Skill-level convergence results for the 46 targeted Delphi skills |
-
-The raw survey archives are stored in:
-
-```text
-data/raw/
-```
 
 ## Citation
 

@@ -1,0 +1,14 @@
+Round 3 direct pairwise platform-ranking validation
+
+experts: 15
+total pairwise rows: 225
+substantive comparisons: 187
+cannot judge responses: 28
+tie / no clear difference responses: 10
+framework-consistent substantive comparisons: 144
+pairwise agreement: 0.7701 (77.01%)
+
+Familiarity-filtered subset
+substantive comparisons with both familiarity scores >= 2: 88
+framework-consistent comparisons in subset: 72
+agreement in subset: 0.8182 (81.82%)
