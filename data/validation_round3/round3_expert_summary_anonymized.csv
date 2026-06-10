@@ -1,0 +1,16 @@
+expert_id,original_expert_id_redacted,source_file_redacted,consent_to_use_anonymized_response,completion_date,pairwise_rows,substantive_comparisons,cannot_judge_responses,tie_responses,framework_consistent_substantive,agreement_rate,both_familiarity_ge_2_substantive,both_familiarity_ge_2_consistent,both_familiarity_ge_2_agreement_rate
+R3E01,redacted,redacted,Yes,2026-06-09,15,14,0,1,10,0.7143,5,2,0.4
+R3E02,redacted,redacted,Yes,2026-06-09,15,15,0,0,12,0.8,6,6,1.0
+R3E03,redacted,redacted,Yes,2026-06-09,15,14,0,1,8,0.5714,5,3,0.6
+R3E04,redacted,redacted,Yes,2026-06-09,15,15,0,0,13,0.8667,6,6,1.0
+R3E05,redacted,redacted,Yes,2026-06-09,15,14,0,1,10,0.7143,3,1,0.3333
+R3E06,redacted,redacted,Yes,2026-06-09,15,15,0,0,12,0.8,6,4,0.6667
+R3E07,redacted,redacted,Yes,2026-06-09,15,14,0,1,12,0.8571,14,12,0.8571
+R3E08,redacted,redacted,Yes,2026-06-09,15,13,0,2,10,0.7692,13,10,0.7692
+R3E09,redacted,redacted,Yes,2026-06-09,15,15,0,0,6,0.4,1,1,1.0
+R3E10,redacted,redacted,Yes,2026-06-09,15,14,0,1,12,0.8571,5,4,0.8
+R3E11,redacted,redacted,Yes,2026-06-09,15,1,14,0,1,1.0,0,0,
+R3E12,redacted,redacted,Yes,2026-06-09,15,1,14,0,1,1.0,0,0,
+R3E13,redacted,redacted,Yes,2026-06-09,15,13,0,2,12,0.9231,13,12,0.9231
+R3E14,redacted,redacted,Yes,2026-06-09,15,14,0,1,11,0.7857,1,1,1.0
+R3E15,redacted,redacted,Yes,2026-06-09,15,15,0,0,14,0.9333,10,10,1.0

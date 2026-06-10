@@ -1,0 +1,35 @@
+Round 3 direct pairwise platform-ranking validation
+
+Generated: 2026-06-10T07:11:27
+
+Reference ranking, lower Total ISBI means lower burden:
+1. Aurea
+2. Google AppSheet
+3. OutSystems
+4. Zoho Creator
+5. Microsoft Power Apps
+6. Mendix
+
+Summary:
+- experts/files: 15
+- total pairwise rows: 225
+- substantive comparisons: 187
+- cannot judge responses: 28
+- tie / no clear difference responses: 10
+- framework-consistent substantive comparisons: 144
+- pairwise agreement: 0.7701 (77.01%)
+
+Familiarity-filtered subset:
+- substantive comparisons with both familiarity scores >= 2: 88
+- framework-consistent comparisons in subset: 72
+- agreement in subset: 0.8182 (81.82%)
+
+Expected manuscript values:
+- 15 experts
+- 225 total pairwise rows
+- 187 substantive comparisons
+- 28 cannot judge responses
+- 10 tie responses
+- 144 framework-consistent substantive comparisons
+- 77.01% pairwise agreement
+- 72/88 = 81.82% agreement when both familiarity scores are >= 2
