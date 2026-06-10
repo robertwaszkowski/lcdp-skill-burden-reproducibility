@@ -13,7 +13,7 @@ expert-response similarity, and reliability statistics, then writes:
 Usage example:
 
   python reproduce_expert_survey_round1_analysis.py \
-      --zip completed_expert_surveys_round1_a\(1\).zip \
+      --zip completed_expert_surveys_round1_a\\(1\\).zip \
       --output-report expert_survey_round1_analysis_report_round1.xlsx \
       --output-dir expert_analysis_outputs_round1 \
       --output-zip expert_survey_round1_analysis_outputs_round1.zip
@@ -593,7 +593,6 @@ def main():
     print(json.dumps(result, indent=2))
 
     if args.extract_dir.exists():
-        import shutil
         shutil.rmtree(args.extract_dir)
 
 if __name__ == "__main__":

@@ -614,9 +614,5 @@ def main():
     for row in summary_rows:
         print(f"{row['item']}: {row['value']}")
 
-    if args.extract_dir.exists():
-        import shutil
-        shutil.rmtree(args.extract_dir)
-
 if __name__ == "__main__":
     main()
