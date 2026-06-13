@@ -289,6 +289,9 @@ def main():
         "Development_090": rank_from_phase_scores(base_phase, {
             "Design": 0.05, "Development": 0.90, "Implementation": 0.05
         }),
+        "AnalysisDesign_097": rank_from_phase_scores(base_phase, {
+            "Design": 0.97, "Development": 0.015, "Implementation": 0.015
+        }),
     }
     phase_sens = scenario_rank_table(base_rank, phase_scenarios)
 
