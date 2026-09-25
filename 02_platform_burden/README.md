@@ -14,6 +14,7 @@ Phase 2 applies the expert-derived skill weights (from Phase 1) to the platform-
 ## Data Directories
 - `input/`: Contains the platform-skill matrix CSV files detailing the required skills for each platform across the three lifecycle phases.
 - `output/`: Stores the computed phase scores and the final Total ISBI ranking of the platforms.
+- [`source_workbooks/`](source_workbooks/): Original Excel workbook documenting documentation-derived keywords and their classification into generalized concepts. See its README for worksheet descriptions and its relationship to the current calculation inputs.
 
 ## Reproduction
 Ensure Phase 1 is completed first, then run:
