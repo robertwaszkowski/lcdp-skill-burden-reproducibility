@@ -7,7 +7,7 @@ MK005,SK011,Design,Database model,Data Structure,1,0,0,0,0,0
 MK006,SK012,Design,Database model,IT Data Types,0,1,0,0,1,0
 MK007,SK013,Design,Database model,Denormalization,1,0,0,0,0,0
 MK008,SK014,Design,Database model,Entity Diagrams,1,1,1,1,1,0
-MK009,,Design,Database model,Enumeration,0,0,0,0,0,0
+MK009,SK015,Design,Database model,Enumerations,0,0,0,0,1,1
 MK010,SK016,Design,Database model,Expressions,0,0,0,0,1,0
 MK011,SK017,Design,Database model,Relational Database,1,1,1,1,0,0
 MK012,SK018,Design,Database model,XML/XPath,1,0,0,0,0,1
@@ -161,3 +161,4 @@ MK159,SK206,Implementation,Deployment,SOAP,0,1,0,0,0,0
 MK160,SK207,Implementation,Version control,Code Repository Concept,1,0,0,1,0,0
 MK161,SK208,Implementation,Version control,Custom Version Control,0,1,1,0,1,1
 MK162,SK209,Implementation,Version control,Git,1,0,0,1,0,0
+MK163,SK185,Implementation,Client module installation,.NET Framework,0,1,0,0,0,0

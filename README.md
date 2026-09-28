@@ -150,9 +150,9 @@ The expected Total ISBI ranking (found in `02_platform_burden/output/final_ranki
 
 | Rank | Platform | Total ISBI |
 | ---: | --- | ---: |
-| 1 | Aurea | 301.5333 |
-| 2 | Google AppSheet | 478.2666 |
-| 3 | OutSystems | 510.6666 |
+| 1 | Aurea | 312.2000 |
+| 2 | Google AppSheet | 488.9333 |
+| 3 | OutSystems | 522.4000 |
 | 4 | Zoho Creator | 531.5333 |
 | 5 | Microsoft Power Apps | 562.0000 |
 | 6 | Mendix | 718.7333 |
@@ -183,3 +183,7 @@ This repository is distributed under the license specified in the `LICENSE` file
 Robert Waszkowski
 Military University of Technology
 Email: [robert.waszkowski@wat.edu.pl](mailto:robert.waszkowski@wat.edu.pl)
+
+## Data correction (2026-09-28)
+
+SK015 and SK185 have been restored to the calculation inputs and all platform scores and sensitivity outputs regenerated. See [the correction record](02_platform_burden/DATA_CORRECTIONS_20260928.md). The previously archived Zenodo release predates this correction; use this GitHub revision to reproduce the corrected results.

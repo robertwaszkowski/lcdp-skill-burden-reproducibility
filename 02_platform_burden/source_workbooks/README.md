@@ -1,6 +1,6 @@
 # Source workbook for keyword classification
 
-[`table__it_skills_updated_20241021_RW.xlsx`](table__it_skills_updated_20241021_RW.xlsx) preserves the original workbook documenting the extraction and generalization of technical terms from LCDP documentation. The workbook is provided unchanged, including its formulas and cached values.
+[`table__it_skills_updated_20241021_RW.xlsx`](table__it_skills_updated_20241021_RW.xlsx) contains the historical workbook documenting the extraction and generalization of technical terms from LCDP documentation. The 2026-09-28 correction unifies `Enumeration` with the source label `Enumerations` (SK015) and updates its directly affected cached assignments and database-model counts. All formula expressions and package parts are preserved; Excel is instructed to recalculate on opening. Unrelated historical cached formula errors have not been repaired. SK185 (`.NET Framework`, OutSystems client installation) was already present in this workbook; its correction applies to the CSV matrix.
 
 ## Relevant worksheets
 
@@ -14,8 +14,10 @@ This is a historical source workbook documenting how the terminology was classif
 
 Use the curated CSV files in `../input/`, the final consensus weights in `../../01_expert_surveys/output/`, and the repository scripts to reproduce the current study results. The workbook is supporting provenance and is not a replacement for those calculation inputs.
 
-SHA-256 of the unchanged workbook:
+SHA-256 of the corrected workbook:
 
 ```text
-6a14c270446ddac107494c64b8083829ff825016e7488c2c5e92c568a33d5242
+029aa768a775a3faa0c36831c9b9d3bc73eafcf997fee466217fb0ce4f3e7ea9
 ```
+
+The original workbook remains available at commit `bb6c082e6388da3bb3cb5127b1ff3275bc99bbbb` (SHA-256 `6a14c270446ddac107494c64b8083829ff825016e7488c2c5e92c568a33d5242`). The historical Important-skills subset is unaffected: SK015 is excluded by its Importance filter, and SK185 was already included.

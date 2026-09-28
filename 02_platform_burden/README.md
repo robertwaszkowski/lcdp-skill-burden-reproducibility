@@ -38,3 +38,7 @@ retain their original labels for traceability. When joining those records to
 the current matrix, use Skill_ID (113 / SK113); both labels refer to the same item.
 This correction does not reclassify other entries prefixed with `+` and does not
 resolve the separate distinction between the full survey catalogue and its IT-skill subset.
+
+## Matrix completeness correction (2026-09-28)
+
+See [SK015/SK185 corrections and their numerical effects](DATA_CORRECTIONS_20260928.md). The corrected IT subset contains 163 identified entries, excluding 46 domain-skill entries from the 209-item catalogue.
